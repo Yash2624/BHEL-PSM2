@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reset Page</title>
+  </head>
+  <body style="background-color: #2f387b">
+    
+    <link rel="icon" href="images/download.png" type="image/png" />
+    <link rel="shortcut icon" type="image/.png" href="images/download.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js"></script>
+
+    <!--logo starts here-->
+    <div class="logo" style="display: flex">
+      <a href="/">
+        <img
+          src="images/download.png"
+          alt="logo"
+          style="width: 100px; height: 100px"
+        />
+      </a>
+    </div>
+    <!--logo ends here-->
+
+    <!--HEADING-->
+    <a href="/">
+      <div class="div-header">
+        <header>POWER SECTOR MARKETING</header>
+      </div>
+    </a>
+    <!--HEADING ENDS-->
+
+
+    <h2>User: <%= user.name %></h2>
+    <h1>Reset Password</h1>
+    <form action="/reset" method="post">
+      <div>
+        <label for="old_pass" class="oc">Old Password</label>
+        <input type="text" class="oc" name="old_pass" id="old_pass" required />
+      </div>
+      <br>
+      <div>
+        <label for="new_pass" class="oc">New Password</label>
+        <input type="text" class="oc" name="new_pass" id="new_pass" required />
+      </div>
+      <br>
+      <button type="submit" class="n">Reset</button>
+    </form>
+
+    <style>
+  .oc{
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: bolder;
+	width: 20%;
+	transition: .2s;
+  color: #D1D1D4;
+}
+.n{
+text-emphasis-color: white;
+}
+
+
+    </style>
+  </body>
+</html>

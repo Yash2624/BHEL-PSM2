@@ -1,0 +1,338 @@
+/* starts css for Header */
+.div-header{
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+  font-size: 50px;
+  color: #2f387b;
+  height: 2cm;
+  width: 20cm;
+  position: relative;
+  bottom: 110px;
+  left: 300px;
+}
+/* ends css for Header */
+
+/* starts css for navigation bar */
+.nav-bar{
+  box-sizing: border-box;
+  border-color: black;
+ background-color: #2f387b;
+  border-style:none;
+  
+  width: 35cm;
+  position:absolute;
+  position:absolute;
+  left:3cm;
+  top:100px ;
+  z-index: 999;
+}
+
+.nav-bar a{
+  color:rgb(64, 0, 255);
+  text-decoration: none;
+}
+
+.nav-bar ul li{
+  display: inline-flex;
+}
+
+.btn-class{
+  border-radius: 100px;
+  height:1cm;
+  padding : 15px;
+  background-color: bisque;
+}
+.sub-nav{display: none;
+width: 3cm;
+text-align: center;}
+
+.sub-nav-1{display: none;}
+
+.nav-bar ul li:hover .sub-nav{
+  display: block;
+  position: absolute;
+  background:none;
+  margin-top: 37px;
+  margin-left: 10px;
+}
+.nav-bar ul li:hover .sub-nav ul{
+  display: block;
+}
+.nav-bar ul li:hover .sub-nav ul li{
+  display: block;
+}
+.nav-btn{
+  margin: 05px;
+  position: relative;
+  right:1cm;
+  width: 3cm;
+  background-color: aliceblue;
+  border-radius: 50px;
+}
+.nav-bar ul li:hover .sub-nav ul li:hover .sub-nav-1{
+  display: block;
+  
+}
+.nav-bar ul li:hover .sub-nav ul li:hover .sub-nav-1 ul{
+  display: block;
+  
+}
+.nav-bar ul li:hover .sub-nav ul li:hover .sub-nav-1 ul li{
+  display: block;
+  
+}
+
+/* ends css for navigation bar */
+
+.login-bar{
+ border-style: solid;
+height: 10cm;
+width: 10cm;
+border-radius: 5px;
+padding-right: 3cm;
+text-align:center;
+padding-left: 3cm;
+font-size: 25px;
+font-weight: bold;
+position: relative;
+bottom: 2cm;
+left: 11cm;
+bottom: 0cm;
+box-shadow: 5px 10px;
+border-color: #c8cad9;
+
+}
+
+.login__input {
+	border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: bolder;
+	width: 75%;
+	transition: .2s;
+  color: #D1D1D4;
+}
+ .password_input{ 
+  border: none;
+  background: none;
+  border-color: #2f387b;
+  padding-left: 24px;
+  width: 75%;
+padding:10px;
+font-weight: bolder;
+color: #D1D1D4;
+transition: .2s;
+border-bottom: 2px solid #D1D1D4;
+}
+
+.other-links{
+  font-style: normal;
+  font-size: 20px;
+  color: bisque;
+  position: relative;
+  left: 5cm;
+  bottom: 1cm;
+  
+
+}
+
+.iframe-class{
+  border-color: #c8cad9;
+  height:9cm ;
+  width:11cm ;
+  position: relative;
+  left: 28cm;
+  bottom: 105px;
+  
+  
+}
+
+.mySlides{
+  height:150%;
+  width: 100%;
+}
+.mySlides1 {
+  border-color: #c8cad9;
+  height:5.35cm ;
+  width:11cm ;
+  position: absolute;
+  left: 16.5cm;
+  bottom: 348px;
+
+}
+.dropdown-menu{
+  box-sizing: border-box;
+  border-style: none;
+  border-color: black;
+  display: block;
+  height: 4cm;
+  width: 4cm ; 
+  position: absolute;
+  bottom: 0cm;
+  
+}
+
+.dropdown-menu select{
+  margin: 0.2cm;
+  width: 3cm;
+}
+
+/* table css */
+
+.quick-links-table{
+  box-sizing: border-box;
+  border-style: none;
+  border-color: black;
+  border-width: 2px;
+  width: 5cm;
+  height: 10.2cm;
+  text-align: center;
+  border-radius: 30px;
+  background-color: aliceblue;
+  position: absolute;
+  top:5cm;
+  overflow-y: scroll;
+  overflow: hidden;
+  text-align: center;
+}
+.quick-links-table tr td{
+  color:aliceblue;
+}
+.quick-links-table tr td a{
+  color:#2f387b;
+  text-decoration: none;
+}
+.td-content{
+  text-align: justify;
+}
+.tr1{
+  height: 0.5cm;
+  padding: 10px;  
+}
+
+
+/* table css */
+
+/*signup css*/
+
+.signup_form{
+  border-style: solid;
+  height: 15cm;
+  width: 10cm;
+  border-radius: 5px;
+  padding-right: 3cm;
+  text-align:center;
+  padding-left: 3cm;
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  bottom: 2cm;
+  left: 11cm;
+  bottom: 1cm;
+  box-shadow: 5px 10px;
+  border-color: #c8cad9;
+}
+.signup-bar-staffno{
+  border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: bolder;
+	width: 75%;
+	transition: .2s;
+  color: #D1D1D4;
+}
+.signup_name{
+  border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: bolder;
+	width: 75%;
+	transition: .2s;
+  color: #D1D1D4;
+}
+.phone_no__input{
+  border: none;
+	border-bottom: 2px solid #D1D1D4;
+	background: none;
+	padding: 10px;
+	padding-left: 24px;
+	font-weight: bolder;
+	width: 75%;
+	transition: .2s;
+  color: #D1D1D4;
+}
+
+/*signup css ends*/
+
+.footer-div{
+  box-sizing: border-box;
+  border-style: none;
+  border-color: #c8cad9;
+  height: 0.5cm;
+  text-align: center;
+  position: fixed;
+  bottom: 0cm;
+  width: 100%;
+  background-color: wheat;
+
+}
+.footer-div p{
+  position: relative;
+  bottom:0.48cm;
+}
+
+
+.birthday-table{
+  border: 2px solid black;
+  width: 40%;
+  height: 3CM;
+  padding: 10px;
+  margin: 15px;
+  position: absolute;
+ left:820px;
+ bottom: 70px;
+}
+.class-birthday-table{
+  width: 30%;
+  border-width: 1cm;
+  border: 10%;
+  
+}
+.Thought-table{
+  border: 2px solid black;
+  width: 30%;
+  height: 3CM;
+  padding: 10px;
+  margin: 15px;
+  position: absolute;
+ right:650px;
+ bottom: 70px;
+}
+
+/*for user page*/
+.btn-class1{
+  border-radius: 100px;
+  height:1cm;
+  padding : 15px;
+  background-color: bisque;
+position: relative;
+left: 4cm;}
+.nav-btn1{
+  margin: 05px;
+  position: relative;
+  right: -2.5cm;
+  width: 3cm;
+  background-color: aliceblue;
+  border-radius: 50px;
+z-index: 999;}
+
+
+  
+  
